@@ -1,0 +1,6 @@
+{
+  "name": "@sigmasd/rd",
+  "version": "1.0.0",
+  "exports": "./redirect.ts",
+  "license": "MIT"
+}
