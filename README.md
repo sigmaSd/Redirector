@@ -7,7 +7,7 @@ only for now)
 ## Installation
 
 ```bash
-deno install -A jsr:@sigmasd/rd
+deno install --global -A jsr:@sigmasd/rd
 ```
 
 Or run it directly:
