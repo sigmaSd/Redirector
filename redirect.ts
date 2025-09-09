@@ -52,8 +52,8 @@ Example:
   const remainingArgs = args._.length > 0 ? args._ : null;
 
   // Find paths of both runtimes
-  const fromProgramPath = await which(fromProgram);
-  const toProgramPath = await which(toProgram);
+  const fromProgramPath = await which(fromProgram) ?? fromProgram;
+  const toProgramPath = await which(toProgram) ?? toProgram;
 
   if (!toProgramPath || !fromProgramPath) {
     console.error(
